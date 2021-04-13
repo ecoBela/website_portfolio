@@ -6,11 +6,13 @@ import About from './Components/About';
 import Projects from './Containers/Projects';
 import Contact from './Components/Contact';
 import Error from './Components/Error';
+import NavigationBar from './Components/NavigationBar';
 
 
 const App = () => {
   return (
     <>
+    <NavigationBar/>
     <Router>
       <Switch>
         <Route exact path="/" component={Home}/>

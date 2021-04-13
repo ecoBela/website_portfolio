@@ -4,20 +4,22 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
 .navbar {
-    background-color: green;
+    background-color: #7C306A;
+    
 }
 
 .navbar-brand, .navbar-nav, .nav-link{
-    color: red;
+    color: white;
 
     &:hover{
-        color: white;
+        color: pink;
     }
 }
 `;
 
 
 const NavigationBar = () =>{
+    return(
     <Styles>
         <Navbar expand="lg">
             <Navbar.Brand href="/">My Portfolio</Navbar.Brand>
@@ -32,8 +34,9 @@ const NavigationBar = () =>{
             </Navbar.Collapse>
         </Navbar>
     </Styles>
+    )
 
 }
 
 
-export default Navbar;
+export default NavigationBar;
