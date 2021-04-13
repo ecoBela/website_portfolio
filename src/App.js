@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Projects from './Containers/Projects';
 import Contact from './Components/Contact';
+import Error from './Components/Error';
 
 
 const App = () => {
