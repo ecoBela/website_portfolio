@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
 .navbar {
-    background-color: #f5cbf1;
+    background-color: #52074a;
 }
 
 .navbar-brand, .navbar-nav, .nav-link{
@@ -34,8 +34,6 @@ const NavigationBar = () =>{
         </Navbar>
     </Styles>
     )
-
 }
-
 
 export default NavigationBar;

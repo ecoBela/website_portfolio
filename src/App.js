@@ -1,12 +1,12 @@
 import React from 'react';
 import { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Components/Home';
-import About from './Components/About';
-import Projects from './Containers/Projects';
-import Contact from './Components/Contact';
-import Error from './Components/Error';
-import NavigationBar from './Components/NavigationBar';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './containers/Projects';
+import Contact from './components/Contact';
+import Error from './components/Error';
+import NavigationBar from './components/NavigationBar';
 
 
 const App = () => {
