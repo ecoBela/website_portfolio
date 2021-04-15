@@ -7,12 +7,14 @@ import Projects from './containers/Projects';
 import Contact from './components/Contact';
 import Error from './components/Error';
 import NavigationBar from './components/NavigationBar';
+import Jumbotron from './components/Jumbotron';
 
 
 const App = () => {
   return (
     <>
     <NavigationBar/>
+    <Jumbotron></Jumbotron>
     <Router>
       <Switch>
         <Route exact path="/" component={Home}/>
