@@ -7,14 +7,14 @@ const Styles = styled.div`
 .jumbo {
     background: url(${globeImage}) no-repeat fixed bottom;
     background-size: cover;
-    colour: pink;
+    color: #efefef;
     height: 200px;
     position: relative;
     z-index: -2;
 }
 .overlay {
-    background-color: blue;
-    opacity: 0.6;
+    background-color: #000;
+    opacity: 0.3;
     position: absolute;
     top: 0;
     left: 0;
