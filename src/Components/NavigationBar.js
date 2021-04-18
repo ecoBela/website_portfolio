@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -19,19 +19,21 @@ const Styles = styled.div`
 
 const NavigationBar = () =>{
     return(
+        
     <Styles>
         <Navbar expand="lg">
+            
             <Navbar.Brand href="/projects">My Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Item><Nav.Link style={{ color: "white" }} href="/">Home</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link  style={{ color: "white" }} href="/">Home</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link style={{ color: "white" }} href="/about">About Me</Nav.Link></Nav.Item>
                     {/* <Nav.Item><Nav.Link style={{ color: "white" }} href="/projects">Projects</Nav.Link></Nav.Item> */}
                     <Nav.Item><Nav.Link style={{ color: "white" }} href="/contact">Contact</Nav.Link></Nav.Item>
-                </Nav>
+                </Nav>  
             </Navbar.Collapse>
-        </Navbar>
+        </Navbar> 
     </Styles>
     )
 }
