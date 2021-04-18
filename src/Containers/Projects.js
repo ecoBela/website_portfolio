@@ -1,13 +1,18 @@
 import React, { Fragment } from 'react';
 import styled from 'styled-components';
-import { Card } from 'react-bootstrap';
+import { CardGroup, Card, Container } from 'react-bootstrap';
 
 
 
 const Projects = () => {
 
     const Styles = styled.div`
-    .color: pink;
+    .card {
+        background: #52074a;
+        color: #efefef;
+    }
+
+
     
     `;
 
@@ -15,9 +20,13 @@ const Projects = () => {
 
     return(
         <>
+        
         <h1 style={{color: "#52074a"}}>My Projects</h1>
-        <p> Here is a list of projects page</p>
+        
+
+        
         <Styles>
+            <CardGroup>
             <Card style={{ width: '18rem', margin: '20px' }}>
                 <Card.Body>
                     <Card.Title>Gym Membership</Card.Title>
@@ -29,8 +38,6 @@ const Projects = () => {
                     <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
             </Card>
-        </Styles>
-        <Styles>
             <Card style={{ width: '18rem', margin: '20px' }}>
                 <Card.Body>
                     <Card.Title>Space Education</Card.Title>
@@ -42,8 +49,6 @@ const Projects = () => {
                     <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
             </Card>
-        </Styles>
-        <Styles>
             <Card style={{ width: '18rem', margin: '20px' }}>
                 <Card.Body>
                     <Card.Title>Superhero Sightings</Card.Title>
@@ -55,8 +60,6 @@ const Projects = () => {
                     <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
             </Card>
-        </Styles>
-        <Styles>
             <Card style={{ width: '18rem', margin: '20px' }}>
                 <Card.Body>
                     <Card.Title>Upcoming: Mapping Project</Card.Title>
@@ -68,7 +71,11 @@ const Projects = () => {
                     <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
             </Card>
+            </CardGroup>
         </Styles>
+
+       
+
 
         </>
     )
