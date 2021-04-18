@@ -8,7 +8,7 @@ const Styles = styled.div`
     background: url(${globeImage}) no-repeat fixed bottom;
     background-size: cover;
     color: #efefef;
-    height: 200px;
+    height: 250px;
     position: relative;
     z-index: -2;
 }
@@ -31,7 +31,7 @@ const Jumbotron = () => {
             <div className="overlay"></div>
             <Container className="text-center">
                 <h1>I'm a web developer</h1>
-                <p>See my previous work</p>
+                <p>Come in and take a peek...</p>
             </Container>
 
         </Jumbo>

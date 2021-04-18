@@ -7,6 +7,9 @@ import { CardGroup, Card, Container } from 'react-bootstrap';
 const Projects = () => {
 
     const Styles = styled.div`
+
+    background-color: lightgrey;
+    
     .card {
         background: #52074a;
         color: #efefef;
@@ -21,6 +24,7 @@ const Projects = () => {
     return(
         <>
         <Styles>
+            
             <Container>
             <h1 className="text-center" style={{color: "#52074a"}}>My Projects</h1>
             </Container>
