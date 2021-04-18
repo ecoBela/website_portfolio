@@ -29,7 +29,7 @@ const Jumbotron = () => {
         <Styles>
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
-            <Container>
+            <Container className="text-center">
                 <h1>I'm a web developer</h1>
                 <p>See my previous work</p>
             </Container>

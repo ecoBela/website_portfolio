@@ -11,21 +11,20 @@ const Projects = () => {
         background: #52074a;
         color: #efefef;
     }
-
-
+    .cardgroup {
+        background: yellow;
+    }
+   
     
     `;
 
-
-
     return(
         <>
-        
-        <h1 style={{color: "#52074a"}}>My Projects</h1>
-        
-
-        
         <Styles>
+            <Container>
+            <h1 className="text-center" style={{color: "#52074a"}}>My Projects</h1>
+            </Container>
+
             <CardGroup>
             <Card style={{ width: '18rem', margin: '20px' }}>
                 <Card.Body>
@@ -62,7 +61,7 @@ const Projects = () => {
             </Card>
             <Card style={{ width: '18rem', margin: '20px' }}>
                 <Card.Body>
-                    <Card.Title>Upcoming: Mapping Project</Card.Title>
+                    <Card.Title>Upcoming: Map Project</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Web App</Card.Subtitle>
                     <Card.Text>
                     JavaScript | Leaflet
@@ -73,10 +72,6 @@ const Projects = () => {
             </Card>
             </CardGroup>
         </Styles>
-
-       
-
-
         </>
     )
     
