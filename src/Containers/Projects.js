@@ -56,6 +56,19 @@ const Projects = () => {
                 </Card.Body>
             </Card>
         </Styles>
+        <Styles>
+            <Card style={{ width: '18rem', margin: '20px' }}>
+                <Card.Body>
+                    <Card.Title>Upcoming: Mapping Project</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">Web App</Card.Subtitle>
+                    <Card.Text>
+                    JavaScript | Leaflet
+                    </Card.Text>
+                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link href="#">Another Link</Card.Link>
+                </Card.Body>
+            </Card>
+        </Styles>
 
         </>
     )
