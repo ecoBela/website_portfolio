@@ -9,6 +9,7 @@ const Styles = styled.div`
     background-size: cover;
     color: #efefef;
     height: 250px;
+    margin-bottom: 0px;
     position: relative;
     z-index: -2;
 }
