@@ -52,7 +52,7 @@ const Projects = () => {
                     <Card.Text>
                     JavaScript | Vue | 3rd Party APIs
                     </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link href="/projects/space">Card Link</Card.Link>
                     <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
             </Card>
