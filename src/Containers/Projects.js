@@ -63,7 +63,7 @@ const Projects = () => {
                     <Card.Text>
                     Java | Spring | h2SQL
                     </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link href="/projects/superhero">Card Link</Card.Link>
                     <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
             </Card>
