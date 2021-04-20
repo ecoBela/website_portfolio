@@ -8,6 +8,9 @@ import Contact from './components/Contact';
 import Error from './components/Error';
 import NavigationBar from './components/NavigationBar';
 import Jumbotron from './components/Jumbotron';
+import Gym from './components/Gym';
+import Space from './components/Space';
+import Superhero from './components/Superhero';
 
 
 const App = () => {
@@ -19,7 +22,10 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={About}/>
-        <Route path="/projects" component={Projects}/>
+        <Route exact path="/projects" component={Projects}/>
+        <Route exact path="/projects/gym" component={Gym}/>
+        <Route exact path="/projects/space" component={Space}/>
+        <Route exact path="/projects/superhero" component={Superhero}/>
         <Route path="/contact" component={Contact}/>
         <Route component={Error}/>
       </Switch>

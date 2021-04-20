@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, Fragment} from 'react';
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import globeImage from '../assets/globeImage.jpg';
@@ -9,7 +9,7 @@ const Styles = styled.div`
     background-size: cover;
     color: #efefef;
     height: 250px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     position: relative;
     z-index: -2;
 }
@@ -27,17 +27,17 @@ const Styles = styled.div`
 
 const Jumbotron = () => {
     return (
-        <Styles>
-        <Jumbo fluid className="jumbo">
-            <div className="overlay"></div>
-            <Container className="text-center">
-                <h1>I'm a web developer</h1>
-                <p>Come in and take a peek...</p>
-            </Container>
-
-        </Jumbo>
-    </Styles>
-
+        <Fragment>
+            <Styles>
+                <Jumbo fluid className="jumbo">
+                 <div className="overlay"></div>
+                    <Container className="text-center">
+                        <h1>I'm a web developer</h1>
+                        <p>Come in and take a peek...</p>
+                    </Container>
+                </Jumbo>
+            </Styles>
+        </Fragment>
     )
 }
 
