@@ -8,7 +8,7 @@ const Styles = styled.div`
     background: url(${globeImage}) no-repeat fixed bottom;
     background-size: cover;
     color: #efefef;
-    height: 250px;
+    height: 100vh;
     margin-bottom: 0;
     position: relative;
     z-index: -2;

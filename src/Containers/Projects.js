@@ -1,6 +1,6 @@
 import {React, Fragment, Link } from 'react';
 import styled from 'styled-components';
-import { CardGroup, Card, Container } from 'react-bootstrap';
+import { CardGroup, Card, Container, Jumbotron as Jumbo } from 'react-bootstrap';
 
 
 
@@ -9,7 +9,7 @@ const Projects = () => {
     const Styles = styled.div`
 
     background-color: lightgrey;
-    
+    height: 100vh;
     .card {
         background: #52074a;
         color: #efefef;
@@ -17,22 +17,18 @@ const Projects = () => {
     .cardgroup {
         background: yellow;
     }
-   
-    
     `;
 
     return(
         <>
         <Styles>
-            
+
             <Container>
             <h1 className="text-center" style={{color: "#52074a"}}>My Projects</h1>
             </Container>
 
 
-
             <CardGroup>
-                
             <Card style={{ width: '18rem', margin: '20px' }}>
                 <Card.Body>
                     <Card.Title>Gym Membership</Card.Title>
