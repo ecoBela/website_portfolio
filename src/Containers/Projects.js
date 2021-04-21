@@ -1,6 +1,7 @@
 import {React, Fragment, Link } from 'react';
 import styled from 'styled-components';
 import { CardGroup, Card, Container, Jumbotron as Jumbo } from 'react-bootstrap';
+import globeImage from '../assets/globeImage.jpg'
 
 
 
@@ -9,6 +10,7 @@ const Projects = () => {
     const Styles = styled.div`
 
     background-color: lightgrey;
+    // background: url(${globeImage});
     height: 100vh;
     .card {
         background: #52074a;
