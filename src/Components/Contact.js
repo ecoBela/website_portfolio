@@ -3,10 +3,19 @@ import styled from 'styled-components';
 import globe2 from '../assets/globe2.jpg';
 
 const Styled = styled.div`
-    background: lightgrey;
+    padding: 5rem;
+    // background: lightgrey;
     // background-image: url(${globe2.jpg});
-    background-size: cover;
-    height: 100vh;
+    // background-size: cover;
+
+    background-image: url(${globe2});
+        background-size: cover;
+        height: 100vh;
+    
+
+    .img{
+        object-fit: contain;
+    }
 `;
 
 
@@ -15,7 +24,13 @@ const Contact = () => {
         <>
         <Styled>
             <div>
-                 <p>Contact me: see details below</p>
+                <button><a href="https://www.linkedin.com/in/belahamid/">
+                    LinkedIn
+                    </a></button>
+                 <h2>CONTACT ME:  belahamid[at]gmail[dot]com</h2>
+                                 
+                 
+
             </div>
         </Styled>
         </>

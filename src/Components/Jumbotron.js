@@ -1,4 +1,4 @@
-import {React, Fragment} from 'react';
+import {React, Fragment, Link} from 'react';
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import globeImage from '../assets/globeImage.jpg';
@@ -31,35 +31,31 @@ h2{
 
 button{
     margin: 2rem;
-    padding: 2rem;
+    padding: 0.75rem;
+    background-color: #52074a;
+    color: white;
 }
+
+
 `;
 
 
 
 const Jumbotron = () => {
     return (
-        <Fragment>
-            <Styles>
-                <Jumbo fluid className="jumbo">
-                 <div className="overlay"></div>
-                    <Container className="text-center">
-                        
-                        <h1>Welcome</h1>
-                        <h1>My name is Bela.  I'm a web developer</h1>
-                       
-                        
-                       <h2>Come in and take a peek</h2>
-
-                       <button>LinkedIn</button>
-                       <button>Github</button>
-                       <p>belahamid[at]gmail.com</p>
-                        
-
-                    </Container>
-                </Jumbo>
-            </Styles>
-        </Fragment>
+    <Fragment>
+    <Styles>
+        <Jumbo fluid className="jumbo">
+            <div className="overlay"></div>
+            <Container className="text-center">
+                
+                <h1>Welcome</h1>
+                <h1>My name is Bela.  I'm a web developer</h1>
+                <h2>Come in and take a peek</h2>
+            </Container>
+        </Jumbo>
+    </Styles>
+    </Fragment>
     )
 }
 

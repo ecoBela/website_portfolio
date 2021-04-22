@@ -42,6 +42,10 @@ const Projects = () => {
         <>
         <Styles>
 
+        <a href="https://www.linkedin.com/in/belahamid">
+                            Test link
+                       </a>
+
             <Container>
             <h1 className="text-center" style={{color: "white"}}>My Projects</h1>
             </Container>
