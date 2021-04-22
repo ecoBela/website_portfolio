@@ -22,8 +22,8 @@ const StyledParagraph = styled.p`
 // background: grey;
 // opacity: 0.5;
 margin-top:10rem;
-margin-left: 5rem;
-margin-right: 5rem;
+margin-left: 3rem;
+margin-right: 3rem;
 margin-bottom: 0;
 padding: 1rem;
 text-align: center;
@@ -36,10 +36,10 @@ const About = () => {
          <h2 className="intro">Hi! I'm Bela</h2>
          <img src={photo}/>
             <StyledParagraph>
-                <p>Background</p>
-                <p>Values</p>
-                <p>Skills</p>
-                <p>Interests</p>
+                <p>BACKGROUND</p>
+                <p>VALUES</p>
+                <p>SKILLS</p>
+                <p>INTERESTS</p>
             </StyledParagraph>
         </Styled>
         </>
