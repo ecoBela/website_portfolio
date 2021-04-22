@@ -1,7 +1,6 @@
 import React from 'react';
 import { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
 import About from './components/About';
 import Projects from './containers/Projects';
 import Contact from './components/Contact';

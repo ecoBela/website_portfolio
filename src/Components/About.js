@@ -13,8 +13,6 @@ justify-items: center;
 .intro{
     margin: 1rem;
 }
-
-
 color: #52074a;
 `;
 
@@ -33,9 +31,10 @@ const About = () => {
     return (
         <>
         <Styled>
-         <h2 className="intro">Hi! I'm Bela</h2>
+         
          <img src={photo}/>
             <StyledParagraph>
+            <h2 className="intro">Hi! I'm Bela</h2>
                 <p>BACKGROUND</p>
                 <p>VALUES</p>
                 <p>SKILLS</p>

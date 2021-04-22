@@ -23,7 +23,19 @@ const Styles = styled.div`
     right: 0;
     z-index: -1;
 }
+
+h2{
+    margin: 3rem;
+    padding: 3rem;
+}
+
+button{
+    margin: 2rem;
+    padding: 2rem;
+}
 `;
+
+
 
 const Jumbotron = () => {
     return (
@@ -32,8 +44,18 @@ const Jumbotron = () => {
                 <Jumbo fluid className="jumbo">
                  <div className="overlay"></div>
                     <Container className="text-center">
-                        <h1>I'm a web developer</h1>
-                        <p>Come in and take a peek...</p>
+                        
+                        <h1>Welcome</h1>
+                        <h1>My name is Bela.  I'm a web developer</h1>
+                       
+                        
+                       <h2>Come in and take a peek</h2>
+
+                       <button>LinkedIn</button>
+                       <button>Github</button>
+                       <p>belahamid[at]gmail.com</p>
+                        
+
                     </Container>
                 </Jumbo>
             </Styles>
