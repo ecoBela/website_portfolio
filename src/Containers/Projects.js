@@ -4,7 +4,6 @@ import { CardGroup, Card, Container, Jumbotron as Jumbo } from 'react-bootstrap'
 import globeImage from '../assets/globeImage.jpg'
 
 
-
 const Projects = () => {
 
     const Styles = styled.div`
@@ -27,7 +26,6 @@ const Projects = () => {
         background-image: url(${globeImage});
         background-size: cover;
         height: 100vh;
-    
         
         .card {
             background-color: #52074a;
@@ -41,15 +39,11 @@ const Projects = () => {
     return(
         <>
         <Styles>
-
-        <a href="https://www.linkedin.com/in/belahamid">
-                            Test link
-                       </a>
+        <a href="https://www.linkedin.com/in/belahamid">Test link</a>
 
             <Container>
             <h1 className="text-center" style={{color: "white"}}>My Projects</h1>
             </Container>
-
 
             <CardGroup>
             <Card style={{ width: '18rem', margin: '20px' }}>

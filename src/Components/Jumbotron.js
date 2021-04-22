@@ -1,7 +1,7 @@
-import {React, Fragment, Link} from 'react';
+import {React, Fragment} from 'react';
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
-import globeImage from '../assets/globeImage.jpg';
+import globeImage from '../assets/globeImage.jpg';  //Photo by Danielle Rice on Unsplash
 
 const Styles = styled.div`
 .jumbo {
@@ -35,11 +35,7 @@ button{
     background-color: #52074a;
     color: white;
 }
-
-
 `;
-
-
 
 const Jumbotron = () => {
     return (
@@ -48,7 +44,6 @@ const Jumbotron = () => {
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <Container className="text-center">
-                
                 <h1>Welcome</h1>
                 <h1>My name is Bela.  I'm a web developer</h1>
                 <h2>Come in and take a peek</h2>
