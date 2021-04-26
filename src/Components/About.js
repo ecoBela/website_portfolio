@@ -36,7 +36,14 @@ const About = () => {
             <StyledParagraph>
             <h2 className="intro">Hi! I'm Bela</h2>
                 <p>BACKGROUND</p>
-                <p>VALUES</p>
+                <p>VALUES
+                <ul>
+                        <li>Kindness and respect</li>
+                        <li>Assume good intent</li>
+                        <li>Collaboration and community</li>
+                        <li>Relationships are everything</li>
+                    </ul>
+                </p>
                 <p>SKILLS
                 <ul>
                         <li>Software development</li>
