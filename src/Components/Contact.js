@@ -56,7 +56,7 @@ const Contact = () => {
                     <Card.Title>Looking for a full-stack developer?</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">CONTACT ME</Card.Subtitle>
                     <Card.Text>belahamid@gmail.com </Card.Text>
-                    <Card.Link href="">LinkedIn</Card.Link>
+                    <Card.Link href="https://www.linkedin.com/in/belahamid/" target="_blank">LinkedIn</Card.Link>
                 </Card.Body>
             </Card>
                 

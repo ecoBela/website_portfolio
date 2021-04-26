@@ -24,7 +24,7 @@ margin-left: 3rem;
 margin-right: 3rem;
 margin-bottom: 0;
 padding: 1rem;
-text-align: center;
+text-align: left;
 `;
 
 const About = () => {
@@ -38,7 +38,15 @@ const About = () => {
                 <p>BACKGROUND</p>
                 <p>VALUES</p>
                 <p>SKILLS</p>
-                <p>INTERESTS</p>
+                <p>INTERESTS
+                    <ul>
+                        <li>Maps</li>
+                        <li>Data visualisation</li>
+                    </ul>
+                </p>
+                <ul>
+                    <li></li>
+                </ul>
             </StyledParagraph>
         </Styled>
         </>
