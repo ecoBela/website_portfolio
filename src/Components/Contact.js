@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 import styled from 'styled-components';
 import globe2 from '../assets/globe2.jpg'; //danielle rice on Unsplash
 
@@ -23,6 +23,8 @@ const Styled = styled.div`
        
         color: #52074a;
     }
+
+    
 `;
 
 const Styled2 = styled.div`
@@ -37,7 +39,7 @@ const Contact = () => {
         <>
         <Styled>
             <div>
-                 <Container className="h2 text-center">
+                 {/* <Container className="h2 text-center">
 
                    <Styled2>
                          
@@ -47,12 +49,21 @@ const Contact = () => {
                     </a>
                     </Styled2>
 
-                 </Container>
+                 </Container> */}
                     
-                
+                <Card style={{ width: '30rem', margin: '20px' }} className="mx-auto">
+                <Card.Body className="text-center">
+                    <Card.Title>Looking for a full-stack developer?</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">CONTACT ME</Card.Subtitle>
+                    <Card.Text>belahamid@gmail.com </Card.Text>
+                    <Card.Link href="">LinkedIn</Card.Link>
+                </Card.Body>
+            </Card>
                 
             </div>
         </Styled>
+
+        
 
        
         </>
