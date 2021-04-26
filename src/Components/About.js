@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import photo from '../assets/photo.jpeg';
 
 const Styled = styled.div`
-background: black;
+// background: black;
 // background: #E0E0E0;
 // background: linear-gradient(grey, #52074a);
-// background: url(${photo}) no-repeat;
+background: url(${photo});
 height: 100vh;
 display: flex;
 justify-items: center;
@@ -17,14 +17,15 @@ color: #52074a;
 `;
 
 const StyledParagraph = styled.p`
-// background: grey;
-// opacity: 0.5;
+background: grey;
+opacity: 0.85;
 margin-top:10rem;
-margin-left: 3rem;
-margin-right: 3rem;
-margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+// margin-bottom: 0;
 padding: 1rem;
 text-align: left;
+
 `;
 
 const About = () => {
@@ -32,10 +33,17 @@ const About = () => {
         <>
         <Styled>
          
-         <img src={photo}/>
+         
             <StyledParagraph>
-            <h2 className="intro">Hi! I'm Bela</h2>
-                <p>BACKGROUND</p>
+            {/* <img src={photo}/> */}
+            <h2>Hi! I'm Bela</h2>
+                <p>BACKGROUND
+                    <ul>
+                        <li>Decade in digital depts or companies</li>
+                        <li>Digital PM and Comms roles</li>
+                        <li>Retrained in software development</li>
+                    </ul>
+                </p>
                 <p>VALUES
                 <ul>
                         <li>Kindness and respect</li>
@@ -45,21 +53,13 @@ const About = () => {
                     </ul>
                 </p>
                 <p>SKILLS
-                <ul>
+                    <ul>
                         <li>Software development</li>
                         <li>Project management</li>
                         <li>Communications</li>
                     </ul>
                 </p>
-                <p>INTERESTS
-                    <ul>
-                        <li>Maps</li>
-                        <li>Data visualisation</li>
-                    </ul>
-                </p>
-                <ul>
-                    <li></li>
-                </ul>
+                
             </StyledParagraph>
         </Styled>
         </>

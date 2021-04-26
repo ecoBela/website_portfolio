@@ -21,7 +21,7 @@ const NavigationBar = () =>{
     return(
         <>  
             <Styles>
-                <Navbar expand="lg" >
+                <Navbar expand="lg" className="fixed-top" >
                     <Navbar.Brand href="/projects">My Portfolio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
