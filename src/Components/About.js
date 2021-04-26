@@ -37,7 +37,13 @@ const About = () => {
             <h2 className="intro">Hi! I'm Bela</h2>
                 <p>BACKGROUND</p>
                 <p>VALUES</p>
-                <p>SKILLS</p>
+                <p>SKILLS
+                <ul>
+                        <li>Software development</li>
+                        <li>Project management</li>
+                        <li>Communications</li>
+                    </ul>
+                </p>
                 <p>INTERESTS
                     <ul>
                         <li>Maps</li>
